@@ -1,6 +1,6 @@
 {
   "name": "mongo-fields-compat",
-  "version": "1.0.0",
+  "version": "1.7.0",
   "description": "Make JSON objects field names compatible with MongoDB field names restrictions",
   "main": "index.js",
   "repository": {
@@ -22,8 +22,8 @@
   "homepage": "https://github.com/dannysofftie/mongo-fields-compat#readme",
   "scripts": {
     "test": "jest --detectOpenHandles",
-    "prepublish": "tsc -b",
-    "build": "tsc -b"
+    "build": "tsc -b",
+    "publish": "yarn build && npm publish"
   },
   "devDependencies": {
     "@types/jest": "^27.4.0",
