@@ -103,5 +103,5 @@ dist
 # TernJS port file
 .tern-port
 yarn.lock
-*.js
+index.js
 *.map
